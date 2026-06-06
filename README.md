@@ -1,8 +1,6 @@
 # mlscratch
 
-A from-scratch implementation of machine learning algorithms in Python — built to understand the math, not just use the tools.
-
-This library intentionally avoids high-level ML frameworks like scikit-learn for its core implementations. Every algorithm is written using only **NumPy**, with explicit loops and manual math to expose the underlying mechanics of each method.
+A from-scratch implementation of machine learning algorithms in Python.
 
 > ⚠️ **This is a learning-oriented project, not a production library.** If you need performance-optimized ML, use [scikit-learn](https://scikit-learn.org/).
 
@@ -76,6 +74,6 @@ Trained using **full-batch gradient descent**. The implementation deliberately u
 
 ### Input Format
 
-Both `X` and `y` must be **2D NumPy arrays* and expected to be scaled first*:
+Both `X` and `y` must be **2D NumPy arrays** and expected to be scaled first:
 - `X` shape: `(n_samples, n_features)`
 - `y` shape: `(n_samples, 1)`
